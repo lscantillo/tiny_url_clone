@@ -10,7 +10,7 @@ TinyUrl Clone is a simple shortener application.
   - Count url visitors.
 
 ### Installation
- - Before start you need to install [postgresql](https://gorails.com/setup/osx/10.15-catalina#database) in your local machine and 
+ - Before start you need to install [postgresql](https://gorails.com/setup/osx/10.15-catalina#database) in your local machine 
 
 Clone the repository
 

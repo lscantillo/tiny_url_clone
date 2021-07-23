@@ -16,7 +16,9 @@ class UrlsController < ApplicationController
   def go_to_redirect
     # return render "shared/_404_alert" if @url.nil?
     # @url.ips.create(ip: request.remote_ip)
-    redirect_to domain_path(@url.token)
+    # @url.increment_with_sql!(:visit_count)
+    # @url.ips.create(ip: request.remote_ip)
+    # redirect_to @url.url
   end
 
   def info
