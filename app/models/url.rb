@@ -19,7 +19,7 @@ class Url < ApplicationRecord
   def add_protocol_to_url
     unless self.url.blank?
       self.url.slice!(/http:\/\/|https:\/\//)
-      self.url = "http://#{self.url}"
+      self.url = "https://#{self.url}"
     end
   end
   
