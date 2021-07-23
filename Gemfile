@@ -36,6 +36,8 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 4.0'
   gem 'database_cleaner', '~> 1.8.5'
   gem 'dotenv-rails', '~> 2.7.6'
+  gem 'annotate'
+  gem 'faker', '1.9.6'
 end
 
 group :development do
