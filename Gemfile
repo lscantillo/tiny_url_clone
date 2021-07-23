@@ -35,6 +35,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0.1'
   gem 'shoulda-matchers', '~> 4.0'
   gem 'database_cleaner', '~> 1.8.5'
+  gem 'dotenv-rails', '~> 2.7.6'
 end
 
 group :development do

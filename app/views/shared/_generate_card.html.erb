@@ -1,0 +1,9 @@
+<div class="h-100 p-5 text-white bg-dark rounded-3">
+  <h2>Welcome to TinyURL Clone</h2>
+  <p>Enter a long URL to make a TinyURL</p>
+<%= form_with(url: create_path, method: 'post') do |form| %>
+  <%= form.label :query, "URL:" %>
+  <%= form.text_field :url ,:required => true%>
+  <%= form.submit "Make Tiny", class: 'btn btn-outline-light' %>
+<% end %>
+</div>
