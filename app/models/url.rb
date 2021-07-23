@@ -16,6 +16,8 @@ class Url < ApplicationRecord
   validates :url, :token, :domain, presence: true
   before_validation :add_protocol_to_url
 
+
+  # Method to add https protocol
   def add_protocol_to_url
     unless self.url.blank?
       self.url.slice!(/http:\/\/|https:\/\//)

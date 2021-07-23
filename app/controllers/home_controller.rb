@@ -5,6 +5,7 @@ class HomeController < ApplicationController
   def index
   end
 
+  # Create new url with params
   def create
     @url = params[:url]
     token = SecureRandom.hex(4)
