@@ -1,24 +1,40 @@
-# README
+# TinyUrl Clone - Ruby On rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-* Ruby version
+TinyUrl Clone is a simple shortener application.
 
-* System dependencies
 
-* Configuration
+  - Create short url.
+  - Count url visitors.
 
-* Database creation
+### Installation
+ - Before start you need to install [postgresql](https://gorails.com/setup/osx/10.15-catalina#database) in your local machine and 
 
-* Database initialization
+Clone the repository
 
-* How to run the test suite
+```sh
+$ git clone https://github.com/lscantillo/tiny_url_clone.git
+$ cd tiny_url_clone
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Create local database and run the migrations
 
-* Deployment instructions
+```sh
+$ rails db:create
+$ rails db:migrate
+```
+### Run Rails server
+```sh
+$ rails server
+```
+# Usage
+ ### Web form 
+ - Go to http://localhost:3000/
 
-* ...
+
+# Demo
+
+This applications was deploy in Heroku at https://tiny-url-clone-app.herokuapp.com/
